@@ -156,26 +156,26 @@ strategy/
 
 ---
 
-## How To Run
+ How To Run
 
-**1. Install dependencies**
+1. Install dependencies**
 ```bash
 python -m venv venv
 venv\Scripts\activate        # Windows
 pip install yfinance pandas numpy matplotlib seaborn
 ```
 
-**2. Download data**
+2. Download data**
 ```bash
 python data/fetch_data.py
 ```
 
-**3. Run backtest**
+3. Run backtest**
 ```bash
 python backtest/engine.py
 ```
 
-**4. View performance metrics**
+4. View performance metrics**
 ```bash
 python backtest/metrics.py
 ```
@@ -184,20 +184,19 @@ python backtest/metrics.py
 
 ## Skills Demonstrated
 
-- **Python** — pandas, numpy, matplotlib, yfinance
-- **Quantitative Finance** — backtesting, position sizing, risk-reward analysis, drawdown calculation
-- **Market Microstructure** — slippage modeling, transaction cost analysis, STT impact
-- **Strategy Research** — hypothesis formation, iterative testing, regime analysis
-- **Software Engineering** — modular architecture, reusable components, clean code
+- Python — pandas, numpy, matplotlib, yfinance
+- Quantitative Finance — backtesting, position sizing, risk-reward analysis, drawdown calculation
+- Market Microstructure — slippage modeling, transaction cost analysis, STT impact
+- Strategy Research — hypothesis formation, iterative testing, regime analysis
+- Software Engineering — modular architecture, reusable components, clean code
 
 ---
 
 ## Author
 
-**Parth Sarthi Saxena**
-B.Tech ECE, JECRC Foundation, Jaipur (2027)
-📧 parthsarthisaxena95@gmail.com
-🐙 github.com/parthsarthisaxena
+Parth Sarthi Saxena
+parthsarthisaxena95@gmail.com
+github.com/parthsarthisaxena
 
 *Independent quantitative researcher with 400+ live trades across systematic strategies.*
 
