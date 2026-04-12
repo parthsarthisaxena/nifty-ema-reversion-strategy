@@ -8,7 +8,7 @@ import datetime
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from data.signals import compute_signals
-
+#momentum
 
 # ── Trading Cost Constants ────────────────────────────────────
 BROKERAGE_PER_ORDER = 20       # ₹20 flat per order (Zerodha)
