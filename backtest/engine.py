@@ -8,8 +8,7 @@ import datetime
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from data.signals import compute_signals
-
-
+#signals activated
 # ── Trading Cost Constants ────────────────────────────────────
 BROKERAGE_PER_ORDER = 20       # ₹20 flat per order (Zerodha)
 ORDERS_PER_TRADE    = 2        # entry + exit
